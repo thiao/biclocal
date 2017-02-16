@@ -1,0 +1,22 @@
+<ion-view view-title="A la Une">
+  <ion-content>
+    <div class="list card">
+  <div class="item item-avatar">
+    <img ng-src="http://192.168.1.16:8081{{actualiteAlaune.url_photo}}"/>
+    <h2>{{actualiteAlaune.titre}}</h2>
+    <p>{{actualiteAlaune.datePublication|date:yyyy-MM-dd-HH-mm-ss}}</p>
+  </div>
+  <div class="item item-body">
+    <img class="full-image" ng-src="http://192.168.1.16:8081{{actualiteAlaune.url_photo}}"/>
+    <p>{{actualiteAlaune.texte}}</p>
+    <p>
+      <button class="button" ng-click="shareAnywhere()">
+      <i class="icon icon-color ion-android-share-alt"> </i>
+      Partager
+      </button>
+     
+    </p>
+  </div>
+</div>
+  </ion-content>
+</ion-view>

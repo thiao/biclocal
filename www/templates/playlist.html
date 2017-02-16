@@ -1,0 +1,28 @@
+<ion-view view-title="Playlist">
+  <ion-content>
+<div class="list card">
+  <div class="item item-avatar">
+    <img ng-src="http://192.168.1.16:8081{{actualite.url_photo}}"/>
+    <h2>{{actualite.titre}}</h2>
+    <p>{{actualite.datePublication|date:yyyy-MM-dd-HH-mm-ss}}</p>
+  </div>
+  <div class="item item-body">
+    <img class="full-image" ng-src="http://192.168.1.16:8081{{actualite.url_photo}}"/>
+    <p>{{actualite.texte}}</p>
+    <p>
+      <button class="button" ng-click="shareAnywhere()">
+      <i class="icon icon-color ion-android-share-alt"> </i>
+      Partager
+      </button>
+     
+    </p>
+  </div>
+</div>
+
+<!-- 
+        <h2>{{actualite.titre}}</h2>
+        <img ng-src="http://192.168.1.16:8081{{actualite.url_photo}}">
+        <p>{{actualite.texte}}<p> 
+-->
+  </ion-content>
+</ion-view>

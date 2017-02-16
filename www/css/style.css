@@ -1,0 +1,198 @@
+/* Empty. Add your own CSS if you like */
+/* Empty. Add your own CSS if you like */
+/* General
+==================================*/
+/*h1 {
+    color: #fff;
+    text-shadow: 0 1px 0px #000;
+    font-size: 42px;
+}*/
+
+
+/* Utilities
+==================================*/
+./*title-bordered {
+    border-top: solid 2px #bbb;
+    padding-top: 30px;
+}
+
+p {
+    color: #555;
+    margin: 0 0 25px;
+}
+
+.scroll {
+    height: 100%;*/
+}
+
+
+/* Menu
+==================================*/
+.menu .bar.bar-header.expanded {
+    transition: all .5s ease-in-out;
+}
+
+.menu-open .bar.bar-header.expanded {
+    background-color: #222;
+}
+
+.menu h2 {
+    bottom: 0;
+    font-size: 18px;
+    left: 16px;
+    position: absolute;
+}
+
+.menu .avatar {
+    height:66px;
+    width: 66px;
+
+}
+
+.menu.menu-left * {
+    font-weight: bold;
+}
+
+.menu-open .ion-navicon {
+    transform: rotate(-360deg);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.menu-open .ion-navicon:before {
+    content: "\f2ca";
+}
+.icon-color {
+    font-size: 64px;
+    color: #553112;
+}
+
+
+/* Login
+==================================*/
+.app-icon {
+    background-color: #fff;
+    background: url('../img/Cs.JPG') center;
+    background-size: cover;
+    border-radius: 50%;
+    height: 125px;
+    margin: 0 auto;
+    width: 125px;
+}
+
+.social-login {
+    position: fixed;
+    bottom: 0;
+}
+/* css slider */
+
+div.wrapper{  
+     /*float:left; /* important */  
+     position:relative; /* important(so we can absolutely position the description div */
+     /*margin-left:2px;
+     margin-right:2px; 
+    /* background: url('../images/index_6.jpg') 
+     /*height:100%;*/
+     /*width:100%;/* important */ 
+}  
+div.description{  
+    position:absolute; /* absolute position (so we can position it where we want)*/  
+    bottom:10PX; /* position will be on bottom */  
+    left:10PX; 
+    right:10PX;  
+    /* width:100%;  
+    /* styling bellow */  
+    background-color:black;  
+    font-family: 'tahoma';  
+    font-size:20px;  
+    color:white;  
+    opacity:0.6; /* transparency */  
+    filter:alpha(opacity=100); /* IE transparency */  
+}  
+p.description_content{  
+    padding:10px;  
+    margin:0px;
+
+}  
+
+
+
+/*acceuil thiao
+=======================================*/
+/*html, body, 
+.scroll*/ /* because the <ion-content> content is placed inside a div.scroll */
+/*{
+  height: 100%;
+}
+
+.container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;  
+}
+
+.container > .cell-row {
+  flex: 1;
+  display: flex;
+}
+.cell-row > div {
+  flex: 1;
+  flex-grow: 1;
+  color: #fff;
+  margin:5px;
+  /* Flex for these containers (cells) */
+  /*display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container i[class^="ion-"] {
+  font-size: 50px;
+}*/
+
+
+
+
+
+/* doesn't matter */
+/*.bar-header {
+  background-color: #241D54 !important;
+  border-bottom: 0 !important;
+}
+.bar-header h1 {
+  color: #fff !important;
+  font-size: 20px !important;
+}
+
+.cell-row-1 {
+  background-color: #777A86;
+}
+.cell-row-2 {
+  background-color: #777A86;
+}
+.cell-row-3 {
+  background-color: #777A86;
+}
+
+.cell-1 {
+  background-color: #C5DCFC;
+}
+.cell-2 {
+  background-color: #73A7F9;
+}
+.cell-3 {
+  background-color: #A0C5FA;
+}
+.cell-4 {
+  background-color: #B3D0FC;
+}
+.cell-5 {
+  background-color: #73A7F9;
+}
+.cell-6 {
+  background-color: #8CB9FA;
+}
+.cell-7 {
+  background-color: #C5DCFC;
+}*/

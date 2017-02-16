@@ -1,0 +1,29 @@
+<ion-view view-title="Maire">
+  <ion-content> 
+  <ion-slide-box auto-play="true" >
+      <ion-slide  ng-repeat="list in laune" ng-click="getDetailAlaune(list.id)" on-slide-changed="slideHasChanged($index)" >
+       <div class="wrapper">  
+       <img ng-src="http://192.168.1.8:8081{{list.url_photo}}" style="width:100%;height:250px;" />  
+            <div class="description">  
+             <p class="description_content"> {{list.titre}}</p>  
+            </div> 
+        </div>  
+    </ion-slide>
+</ion-slide-box>
+
+<div class="list">
+    <ion-list> 
+     <ion-item class="item item-thumbnail-left" ng-repeat="playlist in lists" ng-click="getDetail(playlist.id)">
+          <img ng-src="http://192.168.1.8:8081{{playlist.url_photo}}"/>
+          <p>{{playlist.titre}}</p>
+          <p>{{playlist.texte}}</p> 
+    </ion-item>
+    </ion-list> 
+    <ion-infinite-scroll on-infinite="loadMore()"></ion-infinite-scroll> 
+ </div>
+    
+  </ion-content>
+</ion-view>
+
+      
+       
